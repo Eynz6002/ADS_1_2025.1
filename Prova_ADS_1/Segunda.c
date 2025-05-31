@@ -38,6 +38,8 @@ int main()
         printf("Desconto da categoria: %.2f\n Preço final %.2f", preco * 0.15, preco * 0.85);
     } else if(categoria == 'C') {
         printf("Desconto da categoria: %.2f\n Preço final %.2f", preco * 0.2, preco * 0.8);
+    } else {
+        printf("Categoria inválida.\n");
     }
     return 0;
 }

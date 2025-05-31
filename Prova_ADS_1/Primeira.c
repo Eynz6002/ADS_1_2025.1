@@ -31,6 +31,8 @@ int main()
     {
         if(peso >= 50.00) printf("Pode doar sangue.\n");
         else printf("Você NÃO pode doar sangue");
+    } else {
+        printf("Você NÃO pode doar sangue");
     }
     return 0;
 }
